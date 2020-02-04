@@ -5,3 +5,5 @@ tmp
 /terminal_colorizer.egg-info
 /dist
 /terminal_colorizer/__pycache__/
+/terminal_colorizer/tmp.py
+/terminal_colorizer/kittens.py
