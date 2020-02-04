@@ -1,8 +1,6 @@
-import settings
-
-
 def __run(*args, color: str, sep: str):
     context = __string_formatter(*args, sep=sep)
+    from terminal_colorizer import settings
     if settings._turned_off:
         return context
     prefix = settings.palette[f'{color}']
